@@ -1,0 +1,14 @@
+[
+  {
+    "link": "https://riscvsummit.app.swapcard.com/event/risc-v-summit/planning/UGxhbm5pbmdfMjc1NDgy",
+    "description": "This session shows an exploration of RISC-V hardware generation to implement hardware accelerators for a Trusted Execution Environment (TEE) application. The first exploration to talk about is the Rocket Chip Generator combined with CHIPYARD, which is compared with the freedom unleashed implementation. This SoC implements configurable RISC-V Rocket Cores with TileLink buses. The configuration of the SoC can be changed in processor type and buses. Although the CHIPYARD libraries are being used, the system and the subsystem are totally independent, making the implementation of CHIPYARD more like a library than a repository modification. By using the Rocket scala libraries, is possible to implement peripheral-based SHA-3, ED25519, and AES accelerators to this system. The TEE software is constructed under this hardware base, where a comparison shows the execution of keypair generation and data signing with and without the hardware acceleration. The software uses the Keystone TEE, and includes the early-stage bootloader which performs the code signature, and the linux kernel, along with TEE executable demos to demonstrate the correct behavior using this environment. This design works also with the Berkeley Out-of-Order Machine (BOOM) Processor, and has the potential to support the other cores included in CHIPYARD. The implementation of the system can perform a total of 2 FPGA demos and 4 SoC in 180nm and 65nm technology nodes. Additional configurable options are available such as the use of an external clock for the external memory, Xilinx PCI-e IP inclusion, USB 1.1 Host inclusion, and RNG implementation.Key TakeawaysShow the interaction between software and hardware offering the Trusted Execution Environment (TEE) as the main application.Clear the obscurity of using RISC-V hardware generators for custom hardware integration. This session has an inside focus on CHISEL-based designs (rocket-chip with CHIPYARD/freedom).Present an insight of including fixed or semi-fixed hardware implementations with these RISC-V SoCs. This includes Verilog-based and system Verilog-based implementationsDemonstrate the extensibility of the current RISC-V tools in software and hardware domains.",
+    "url": "https://player.vimeo.com/video/488682627?title=0&byline=0&color=092864&autoplay=1&dnt=1&app_id=122963",
+    "utcstarttime": "2020-12-11T00:00:00+00:00",
+    "utcendtime": "2020-12-11T01:00:00+00:00",
+    "title": "TEE Hardware for RISC-V",
+    "topic": "Hardware Cores/SoCs",
+    "kind": "Tutorial",
+    "presenter": "Ckristian Duran \u00b7 University of Electro-Communications",
+    "organization": null
+  }
+]
