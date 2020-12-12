@@ -2,5 +2,6 @@
 *.mp4
 *.part
 *.ytdl
+*.html
 geckodriver.log
 __pycache__/
